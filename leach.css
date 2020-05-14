@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Abel";
+  src: url("./fonts/abel.ttf") format("truetype");
+}
+
+html {
+  height: 100%;
+  width: 100vw;
+}
+
+body {
+  /* background-color: #7bb4e6; */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Abel";
+  -webkit-font-smoothing: antialiased;
+}
+
+.leach {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  max-width: 100%;
+  padding: 0 30px;
+}
+
+.leach .header .title {
+  /* font-family: "Abel"; */
+  text-align: center;
+}
+
+.leach .cover-container {
+  width: 100%;
+}
+
+.leach .cover-container .cover {
+  max-width: 100%;
+}
+
+.icons {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+i.fab {
+  font-size: 30px;
+  color: black;
+  margin: 0 8px;
+}
+
+i.fab.fa-spotify {
+  font-size: 24px;
+  padding-top: 3px;
+  padding-left: 2px;
+}
