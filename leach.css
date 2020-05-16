@@ -33,6 +33,8 @@ body {
 
 .leach .cover-container {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .leach .cover-container .cover {
