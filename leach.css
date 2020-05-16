@@ -32,7 +32,8 @@ body {
 }
 
 .leach .cover-container {
-  width: 100%;
+  width: 315px;
+  height: 315px;
 }
 
 .leach .cover-container .cover {
