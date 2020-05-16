@@ -33,8 +33,6 @@ body {
 
 .leach .cover-container {
   width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 .leach .cover-container .cover {
@@ -62,6 +60,13 @@ i.fab.fa-spotify {
 
 .cover-container img {
   max-width: 315px;
-  max-width: 315px;
-  height: auto;
+  max-height: 315px;
+}
+
+@media screen and (min-width: 800px) {
+  .leach .cover-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
