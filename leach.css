@@ -59,3 +59,8 @@ i.fab.fa-spotify {
   padding-top: 3px;
   padding-left: 2px;
 }
+
+.cover-container img {
+  max-width: 315px;
+  height: auto;
+}
