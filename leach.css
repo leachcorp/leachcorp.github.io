@@ -54,10 +54,15 @@ i.fab {
   margin: 0 8px;
 }
 
-i.fab.fa-spotify {
+i.fab.fa-spotify,
+i.fab.fa-twitter {
   font-size: 24px;
   padding-top: 3px;
   padding-left: 2px;
+}
+
+i.fab.fa-twitter {
+  font-size: 25px;
 }
 
 .cover-container img {
