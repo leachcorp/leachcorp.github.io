@@ -46,8 +46,6 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 12px;
-
-  display: none;
 }
 
 i.fab {
@@ -63,8 +61,14 @@ i.fab.fa-twitter {
   padding-left: 2px;
 }
 
+i.fab.fa-soundcloud {
+  display: none;
+}
+
 i.fab.fa-twitter {
   font-size: 25px;
+
+  display: none;
 }
 
 .cover-container img {
