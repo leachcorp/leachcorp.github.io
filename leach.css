@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Abel";
-  src: url("./fonts/abel.ttf") format("truetype");
+  font-family: 'Abel';
+  src: url('./fonts/abel.ttf') format('truetype');
 }
 
 html {
@@ -9,11 +9,11 @@ html {
 }
 
 body {
-  /* background-color: #7bb4e6; */
+  background-color: #000;
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: "Abel";
+  font-family: 'Abel';
   -webkit-font-smoothing: antialiased;
 }
 
@@ -35,10 +35,19 @@ body {
 .leach .cover-container {
   width: 315px;
   height: 315px;
+  max-width: 300px;
+
+  display: flex;
+  justify-content: center;
 }
 
 .leach .cover-container .cover {
   max-width: 100%;
+}
+
+.leach .cover-container .embed-player {
+  height: 305px;
+  width: 225px;
 }
 
 .icons {
@@ -50,7 +59,7 @@ body {
 
 i.fab {
   font-size: 30px;
-  color: black;
+  color: #fff;
   margin: 0 8px;
 }
 
@@ -75,7 +84,6 @@ i.fab.fa-twitter {
   max-width: 315px;
   max-height: 315px;
   justify-content: center;
-
 }
 
 @media screen and (min-width: 800px) {
