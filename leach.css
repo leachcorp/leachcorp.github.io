@@ -34,7 +34,7 @@ body {
 
 .leach .cover-container {
   width: 315px;
-  height: 315px;
+  /* height: 315px; */
   max-width: 300px;
 
   display: flex;
@@ -46,8 +46,8 @@ body {
 }
 
 .leach .cover-container .embed-player {
-  height: 305px;
-  width: 225px;
+  height: 380px;
+  width: 400px;
 }
 
 .icons {
